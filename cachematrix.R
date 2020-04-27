@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
         getsolve = getsolve)
 }
 ##
-## Likewise, here I changed "mean" to "solve" and "m" to "s"
+## Likewise, again here I changed "mean" to "solve" and "m" to "s"
 cacheSolve <- function(x, ...) {
    s <- x$getsolve()
    if(!is.null(s)) {
